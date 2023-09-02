@@ -11,9 +11,3 @@ Finally, the code sorts the aggregated_list by the time/pickup ratio in descendi
 Interpreting the output:
 - The output will display app names, the number of users for each app, and the time/pickup ratio for apps with more than one user.
 - The time/pickup ratio indicates the relationship between the median time spent on the app and the median number of pickups. A higher ratio suggests that users spend more time on the app per pickup.
-
-To improve this code, you might consider:
-- Adding comments to explain the purpose of specific sections and variables for better code readability.
-- Handling exceptions more explicitly to avoid potential errors.
-- Adding error handling for cases where the CSV file does not exist or has invalid data.
-- Providing more detailed information in the output, such as median time spent and pickups, for each app.
